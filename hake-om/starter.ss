@@ -3,7 +3,7 @@
 hakeOM.dat 	# Data file
 hakeOM.ctl # Control file
 
-1	# Read initial values from .par file: 0=no,1=yes
+0	# Read initial values from .par file: 0=no,1=yes
 0	# DOS display detail: 0,1,2
 1 	# Report file detail: 0,1,2
 0 	# Detailed checkup.sso file (0,1)

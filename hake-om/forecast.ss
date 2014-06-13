@@ -1,13 +1,14 @@
 # 2014 hake Empirical Age model forecast file
 
 1	# Benchmarks: 0=skip; 1=calc F_spr,F_btgt,F_msy 
-2 	# MSY: 1= set to F(SPR); 2=calc F(MSY); 3=set to F(Btgt); 4=set to F(endyr) 
+2 	# Forecast Method: 0=none; 1= set to F(SPR); 2=calc F(MSY); 3=set to F(Btgt); 4=set to F(endyr) 
 0.4 	# SPR target (e.g. 0.40)
 0.4 	# Biomass target (e.g. 0.40)
 # Enter either: actual year, -999 for styr, 0 for endyr, neg number for rel. endyr
 -999 -999 -999 -999 -999 -999 # Bmark_years: beg_bio end_bio beg_selex end_selex beg_alloc end_alloc
 2 	# Bmark_relF_Basis: 1 = use year range; 2 = set relF same as forecast below
 1 	# Forecast: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt); 4=Ave F (use first-last alloc yrs); 5=input annual F
+
 3 	# N forecast years 
 1.0 	# F scalar (only used for Do_Forecast==5)
 # Enter either: actual year, -999 for styr, 0 for endyr, neg number for rel. endyr

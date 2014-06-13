@@ -1,0 +1,10 @@
+*.exe
+*.sso
+*.ss_new
+hake-om/eigv.rpt
+hake-om/fmin.log
+hake-om/runnumber.ss
+*.bar
+hake-om/ss3.log
+hake-om/ss3.rep
+hake-om/variance
