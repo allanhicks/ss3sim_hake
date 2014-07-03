@@ -11,7 +11,7 @@ hakeOM.ctl # Control file
 0	# Write cumulative report: 0=skip,1=short,2=full
 0	# Include prior likelihood for non-estimated parameters
 1 	# Use Soft Boundaries to aid convergence (0,1) (recommended)
-3 	# N bootstrap datafiles to create
+2 	# N bootstrap datafiles to create
 0 	# Turn off estimation for parameters entering after this phase
 1 	# MCMC burn-in
 1 	# MCMC thinning interval

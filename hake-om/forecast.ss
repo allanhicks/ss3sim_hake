@@ -9,7 +9,7 @@
 2 	# Bmark_relF_Basis: 1 = use year range; 2 = set relF same as forecast below
 1 	# Forecast: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt); 4=Ave F (use first-last alloc yrs); 5=input annual F
 
-3 	# N forecast years 
+1 	# N forecast years 
 1.0 	# F scalar (only used for Do_Forecast==5)
 # Enter either: actual year, -999 for styr, 0 for endyr, neg number for rel. endyr
 -4 0 -4 0 # Fcast_years:  beg_selex end_selex beg_alloc end_alloc
@@ -17,7 +17,7 @@
 0.4 	# Control rule Biomass level for constant F (as frac of Bzero, e.g. 0.40) 
 0.1 	# Control rule Biomass level for no F (as frac of Bzero, e.g. 0.10) 
 1.0 	# Control rule target as fraction of Flimit (e.g. 0.75) 
-3 	# N forecast loops (1-3) (fixed at 3 for now)
+3 	# N forecast loops (1-3)
 3 	# First forecast loop with stochastic recruitment (fixed at 3 for now)
 -1 	# Forecast loop control #3 (reserved)
 0 	#_Forecast loop control #4 (reserved for future bells&whistles) 
