@@ -32,7 +32,7 @@
 
 # Lo	 Hi	 Init	  Prior	    Prior	Prior	Param	Env	Use	Dev	Dev	Dev	Block	block
 # bnd	 bnd value	mean	    type	SD	phase	var	dev	minyr	maxyr	SD	design	switch
-  0.05 0.4 0.2 	  -1.609438 3 	  0.1 	4	0	0	0	0	0	0	0	# M
+  0.05 0.4 0.2 	  -1.609438 3 	  0.1 	4	    0	   0	0	0	0	0	0	# M
 
 ### Growth parameters ignored in empirical input approach
 2	15	5	32	-1	99	-5	0	0	0	0	0	0	0	# A0
@@ -114,10 +114,9 @@
 # A B C D
 # Create one par for each entry > 0 by row in cols A-D
 0	0	0	0	 # US_Foreign
-0	0	1	2	 # Acoustic_Survey
+0	0	0	2	 # Acoustic_Survey
 
 #LO	 HI	   INIT	  PRIOR	  PR_type	SD	PHASE
-0.05 1.2  0.0755  0.0755  -1      0.1  4 # additive value for acoustic survey
 -2   2    0.0     0.0     -1      0.1  4 # ln q for survey
 
 #_SELEX_&_RETENTION_PARAMETERS
